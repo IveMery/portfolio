@@ -399,34 +399,6 @@ margin-top: 90px;
 
 /*---------------------- Inicio Diseño Responsivo------------------------------------ */
  
- /* Fin celular */
-
-  /* Seccion Tablet */
-
-
-   @media  (min-width: 900px){
-     
-    .seccion-principal-conocimientos{
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-
-    .seccion-presentacion{
-        flex-direction: column;
-        align-items: center;
-    } 
-
-    .container-main-project{
-        flex-direction: column;
-        align-items: center;
-
-    }
-    
- }  
-
- Fin seccion tablet 
 
 
 /* celular */
