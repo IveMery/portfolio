@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -450,13 +454,13 @@ margin-top: 90px;
             width: 400px;
             height: auto;
     }
-        
+} 
  /* Fin celular */
 
   /* Seccion Tablet */
 
 
-  @media  (min-width: 900px){
+  /* @media  (min-width: 900px){
      
     .seccion-principal-conocimientos{
         flex-direction: column;
@@ -478,6 +482,6 @@ margin-top: 90px;
     
  }  
 
- /* Fin seccion tablet */
+ Fin seccion tablet */
 
  
