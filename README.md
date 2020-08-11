@@ -7,7 +7,7 @@ Esta es una página creada para el primer proyecto Ada .En este proyecto utiliza
 Recursos utilizados
 
 Iconos:   
--Font awesome
+-Font awesome   
 -Devicon
 
 Imágenes:   
