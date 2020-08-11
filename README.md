@@ -7,16 +7,16 @@ Esta es una página creada para el primer proyecto Ada .En este proyecto utiliza
 Recursos utilizados
 
 Iconos 
-        -Font awesome
-        -Devicon
+-Font awesome
+-Devicon
 
 
 
 Imágenes
-        -unDraw
+-unDraw
 
 
 Fuente        
-        -Google fonts
+-Google fonts
 
 [Link de la página](https://mi-portfolio.netlify.app)
