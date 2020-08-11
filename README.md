@@ -2,7 +2,7 @@
 
 ## Página de proyecto ada
 
-Esta es una página creada para el primer proyecto Ada .En este proyecto utilizamos Html y Css, además se pone en práctica el responsive design para que la página pueda ser visualizada desde un dispositivo móvil.El proyecto esta en contrucción a medida que avancemos en el curso.
+Esta es una página creada para el primer proyecto Ada .En este proyecto utilizamos Html y Css, además se pone en práctica el responsive design para que la página pueda ser visualizada desde un dispositivo móvil.El proyecto esta en construcción a medida que avancemos en el curso  estaré incorcoprando mas contenido y otras tecnologías.
 
 Recursos utilizados
 
