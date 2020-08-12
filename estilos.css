@@ -246,6 +246,7 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(67,243,229,1) 100%
     display: flex;
     justify-content: center;
     background-color: white;
+    
   }
   
   .project-container {
@@ -253,6 +254,9 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(67,243,229,1) 100%
     display: flex;
     flex-wrap: wrap;
     width: 1100px;
+    justify-content: center;
+
+  
   }
   
   .card-container {
