@@ -401,10 +401,38 @@ margin-top: 90px;
  
 
 
+/* tablet */
+
+@media   (min-width:600) and (max-width: 900px){
+     
+    .seccion-principal-conocimientos{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .seccion-presentacion{
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .container-main-project{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+ }  
+/* 
+ Fin seccion tablet 
+ */
+
 /* celular */
 
 
-    @media  (max-width: 699px) {
+    @media  (max-width: 600px) {
 
 
         .seccion-principal-conocimientos{
