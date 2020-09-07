@@ -23,6 +23,7 @@ header{
 }
 
 nav{
+    /* no es necesario background-color, ya que blanco es el color por defecto */
     background-color: #fff;
     display: flex;
     justify-content: flex-end;
@@ -50,6 +51,7 @@ a{
 /* Inicio Presentacion */
 
 .seccion-presentacion{
+    /* aca pusiste dos background-color!! ojo con eso. ninguno es necesario */
     background-color: darkgoldenrod;
     padding: 100px;
     display: flex;
@@ -154,6 +156,7 @@ a{
     justify-content: center;
     flex-wrap: wrap;
     width: 830px;
+    /* no es necesario este color de fondo, ya que se hereda del contenedor */
     background-color: #f6f7fb;
     margin-bottom  : 80px;
     
@@ -186,6 +189,7 @@ a{
   height: 160px;
   align-items: center;
   font-size: 100px;
+  /* esto no tiene borde, asi que border radius no tiene sentido aqui */
   border-radius: 10px;
    
  }
@@ -278,6 +282,8 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(67,243,229,1) 100%
   
   }
  
+
+  /* ojo: aca estas diciendo que TODAS las imagenes de tu web van a tener de width 95% */
   img{
     width: 95%;
   }
@@ -435,7 +441,7 @@ margin-top: 90px;
 
 /* celular */
 
-
+/* el tabulado aca no esta bien  */
     @media  (max-width: 600px) {
 
 
