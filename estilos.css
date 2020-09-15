@@ -146,7 +146,7 @@ a {
     height: 160px;
     align-items: center;
     font-size: 100px;
-    
+    border-radius: 10px;
 }
 
 /* Fin contenedor conocimientos */
@@ -217,7 +217,7 @@ a {
     justify-content: center;
 }
 
-.imagen_proyecto{
+.imagen_proyecto {
     width: 95%;
 }
 
@@ -310,12 +310,9 @@ a {
 
 /* fin seccion footer */
 
-/* ------------------------------------------------------Fin version escritorio------------------------------------------------------------------------ */
-
+/* ---------------------Fin version escritorio---------------------
 /*---------------------- Inicio Diseño Responsivo------------------------------------ */
-
 /* tablet */
-
 @media (min-width:600) and (max-width: 900px) {
     .seccion-principal-conocimientos {
         flex-direction: column;
@@ -331,11 +328,8 @@ a {
         align-items: center;
     }
 }
-
-/* 
- Fin seccion tablet 
- /* celular */
-
+/* Fin seccion tablet */
+/* celular */
 @media (max-width: 600px) {
     .seccion-principal-conocimientos {
         flex-direction: column;
@@ -357,7 +351,7 @@ a {
     .menu-nav__item {
         display: none;
     }
-    .cite-item{
+    .cite-item {
         margin: 15px;
     }
     .container-main-project {
@@ -368,7 +362,7 @@ a {
         flex-direction: column;
         align-items: center;
     }
-     .card-container {
+    .card-container {
         width: 290px;
         height: 290px;
     }
@@ -381,5 +375,4 @@ a {
         height: auto;
     }
 }
-
 /* Fin celular */
