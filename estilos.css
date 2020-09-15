@@ -1,165 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
 /* inicio Header */
-.menu-nav{
+
+.menu-nav {
     list-style: none;
     display: flex;
-  
 }
 
-header{
-    
+header {
     box-shadow: 0 0 29px 0 rgba(23, 195, 201, 0.25);
     position: relative;
 }
 
-nav{
-    background-color: #fff;
+nav {
     display: flex;
     justify-content: flex-end;
-  
 }
 
-.menu-nav__item{
-   margin: 20px;
- 
+.menu-nav__item {
+    margin: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #212121;
-    
 }
 
-.menu-responsive{
-    display: none; 
+.menu-responsive {
+    display: none;
 }
-
 
 /* Fin seccion header */
 
 /* Inicio Presentacion */
 
-.seccion-presentacion{
-    background-color: darkgoldenrod;
+.seccion-presentacion {
     padding: 100px;
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    
 }
 
-.description-item-img{
+.description-item-img {
     width: 700px;
     height: auto;
-    
-
-
 }
-.presentacion-item{
+
+.presentacion-item {
     padding-bottom: 20px;
     box-sizing: border-box;
 }
 
-
-.img-presentacion{
+.img-presentacion {
     width: 100%;
-    
-   
 }
 
-.item-name:hover{
+.item-name:hover {
     color: #305a57;
-
 }
 
-
-.item-saludo{
+.item-saludo {
     font-weight: 700;
     font-size: 40px;
     margin: 0;
 }
 
-
-.item-name{
-    color:#43F3E5;
+.item-name {
+    color: #43F3E5;
     font-size: 70px;
     margin: 0;
     font-weight: 900;
-   
 }
 
-.boton-item{
-    padding:15px ;
+.boton-item {
+    padding: 15px;
     background-color: #43F3E5;
     border-radius: 50px;
     font-weight: 500;
-  
 }
 
-.boton-item:hover{
+.boton-item:hover {
     background-color: #305a57;
     color: #fff;
 }
-    
 
-.item-description{
+.item-description {
     color: gray;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 50px;
-   
-   
 }
- /* Fin presentacion */
 
-
+/* Fin presentacion */
 
 /* Inicio Contenedor comocimientos */
 
-
-.seccion-principal-conocimientos{
+.seccion-principal-conocimientos {
     background-color: #f6f7fb;
-    
-    
 }
 
-.skills-parrafo{
+.skills-parrafo {
     text-align: center;
     margin: 20px;
-    
 }
 
-
-.seccion-conocimientos{
+.seccion-conocimientos {
     display: flex;
     justify-content: center;
-    
     background-color: #f6f7fb;
-    
 }
-  
-  .contenedor-conocimientos{
-    background-color: white;
+
+.contenedor-conocimientos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 830px;
-    background-color: #f6f7fb;
-    margin-bottom  : 80px;
-    
+    margin-bottom: 80px;
 }
-  
-  .contenido-conocimientos{
+
+.contenido-conocimientos {
     width: 240px;
     height: 240px;
     background-color: white;
@@ -168,323 +134,252 @@ a{
     border: 1px solid rgb(221, 219, 219);
 }
 
- 
-.parrafo-conocimientos{
-   text-align: center;
-   
+.parrafo-conocimientos {
+    text-align: center;
     font-weight: 700;
 }
 
-
-
- .img-item{
-
-   display: flex;
-  
-  justify-content: center;
-  background-color: white;
-  height: 160px;
-  align-items: center;
-  font-size: 100px;
-  border-radius: 10px;
-   
- }
+.img-item {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 160px;
+    align-items: center;
+    font-size: 100px;
+    
+}
 
 /* Fin contenedor conocimientos */
 
-
-
-
-
 /* CONTENEDOR CITA */
-.container-cite{
+
+.container-cite {
     display: flex;
     justify-content: center;
-background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(67,243,229,1) 100%);
-
-
-
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(67, 243, 229, 1) 100%);
 }
 
-.fa-quote-right{
+.fa-quote-right {
     font-size: 70px;
     color: rgb(143, 129, 129);
     margin: 50px;
 }
 
-
-.fa-quote-right:hover{
+.fa-quote-right:hover {
     color: white;
 }
 
-
-.container-cite-content{
+.container-cite-content {
     text-align: center;
     width: 800px;
-    
-    
 }
 
-.autor-content{
+.autor-content {
     font-weight: 600;
     margin: 60px;
-
 }
 
-.cite-item{
+.cite-item {
     font-size: 40px;
 }
 
 /* FIN CONTENEDOR CITA */
 
-
 /* Inicio seccion  proyectos */
 
-
-.project-section{
+.project-section {
     display: flex;
     justify-content: center;
     background-color: white;
-    
-  }
-  
-  .project-container {
+}
+
+.project-container {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     width: 1100px;
     justify-content: center;
+}
 
-  
-  }
-  
-  .card-container {
+.card-container {
     width: 343px;
     height: 343px;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
     border: 1px solid rgb(221, 219, 219);
+}
 
-    
-   
-  }
-
-  .imagenes-proyecto{
+.imagenes-proyecto {
     height: 220px;
     display: flex;
     justify-content: center;
-  
-  }
- 
-  img{
+}
+
+.imagen_proyecto{
     width: 95%;
-  }
+}
 
-  .parrafo-proyecto{
-      text-align: center;
-  }
-
-
-.container-main-project{
+.parrafo-proyecto {
     text-align: center;
 }
 
-
-
+.container-main-project {
+    text-align: center;
+}
 
 .skills-list-button {
     border: none;
     background-color: white;
-   
-    padding:15px 40px ;
+    padding: 15px 40px;
     font-size: 20px;
-    
-
 }
-.item-destacado{
-    padding:15px 40px ;
+
+.item-destacado {
+    padding: 15px 40px;
     background-color: #43F3E5;
     border-radius: 50px;
-    
-
 }
 
-
-.item-destacado:hover{
-
- background-color:#305a57;
+.item-destacado:hover {
+    background-color: #305a57;
     color: #fff;
 }
 
-.skills-list{
+.skills-list {
     margin: 50px;
 }
 
-
-.titulos{
+.titulos {
     padding: 60px;
     font-size: 50px;
     text-align: center;
     font-weight: 800;
-   
 }
 
-.parrafo-proyecto{
+.parrafo-proyecto {
     font-weight: 600;
 }
 
-
-
-
 /* Fin seccion proyectos */
-
 
 /* Inicio footer */
 
-.section-footer{
-    
-    background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(67,243,229,1) 100%);
-padding: 60px;
-margin-top: 90px;
-
-
+.section-footer {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(67, 243, 229, 1) 100%);
+    padding: 60px;
+    margin-top: 90px;
 }
 
-
-
-.footer_navenlace , .media_list-enlace{
+.footer_navenlace, .media_list-enlace {
     list-style: none;
 }
 
-
-
-.footer-list , .media-list , .footer-item{
+.footer-list, .media-list, .footer-item {
     display: flex;
     justify-content: center;
-    
 }
 
-.footer_navenlace{
+.footer_navenlace {
     margin: 10px;
     font-weight: 500;
-    
-    
 }
 
-.text-hover:hover{
+.text-hover:hover {
     color: #305a57;
 }
 
-.media_list-enlace{
+.media_list-enlace {
     margin: 12px;
     font-size: 30px;
-
 }
 
-
-.fa.fa-envelope{
+.fa.fa-envelope {
     font-size: 35px;
 }
 
-.footer-item-p{
+.footer-item-p {
     list-style: none;
 }
 
-.footer-item-p:hover{
-    color:#305a57;
+.footer-item-p:hover {
+    color: #305a57;
 }
+
 /* fin seccion footer */
 
 /* ------------------------------------------------------Fin version escritorio------------------------------------------------------------------------ */
 
-
 /*---------------------- Inicio Diseño Responsivo------------------------------------ */
- 
-
 
 /* tablet */
 
-@media   (min-width:600) and (max-width: 900px){
-     
-    .seccion-principal-conocimientos{
+@media (min-width:600) and (max-width: 900px) {
+    .seccion-principal-conocimientos {
         flex-direction: column;
         align-items: center;
-
     }
-
-
-    .seccion-presentacion{
+    .seccion-presentacion {
         flex-direction: column;
         align-items: center;
-    } 
-
-    .container-main-project{
+    }
+    .container-main-project {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
-    
- }  
+}
+
 /* 
  Fin seccion tablet 
- */
+ /* celular */
 
-/* celular */
-
-
-    @media  (max-width: 600px) {
-
-
-        .seccion-principal-conocimientos{
-            flex-direction: column;
-            align-items: center;
-
-        }
-        
-        .titulos{
-            font-size:30px ;
-        }
-        .seccion-presentacion{
-            flex-direction: column;
-            align-items: center;
-        } 
-
-        .menu-responsive{
-            display: flex;
-            justify-content: flex-end;
-            font-size: 30px;
-            margin-right: 15px;
-        }
-
-        .menu-nav__item{
-            display: none;
-        }
-
-
-        .container-main-project{
-            flex-direction: column;
-            align-items: center;
-
-        }
-
-        .project-container{
-            flex-direction: column;
-            align-items: center;
-
-        }
-
-        .footer-list{
-            display: flex;
-            flex-direction: column;
-        }
-
-        .description-item-img{
-            width: 400px;
-            height: auto;
+@media (max-width: 600px) {
+    .seccion-principal-conocimientos {
+        flex-direction: column;
+        align-items: center;
     }
-} 
- /* Fin celular */
+    .titulos {
+        font-size: 28px;
+    }
+    .seccion-presentacion {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-responsive {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    .menu-nav__item {
+        display: none;
+    }
+    .cite-item{
+        margin: 15px;
+    }
+    .container-main-project {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+     .card-container {
+        width: 290px;
+        height: 290px;
+    }
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .description-item-img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+/* Fin celular */
