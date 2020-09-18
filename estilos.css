@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    overflow: hidden;
 }
 
 /* inicio Header */
@@ -37,7 +38,6 @@ a {
 .menu-responsive {
     display: none;
 }
-
 
 /* Fin seccion header */
 
@@ -380,29 +380,23 @@ a {
         width: 300px;
         height: auto;
     }
-    .hidden {
-        display: none;
-    }
     .menu-desplegable {
-       
         flex-direction: column;
         list-style-type: none;
-       
-        max-width: 100%;
-        width: 90%; 
-       
-       
-       
+        background-color: #43F3E5;
+        transform: translate(0);
+        transition: all 2s;
+        position: absolute;
+    }
+    .hidden {
+        transform: translate(350px);
     }
     .lista_nav_movil {
-        margin: 60px 0;
-        position: relative;
-        right: 30px;
-        
-        
+        margin: 20px 0;
+        height: 60px;
     }
-    .menu_hamburguesa{
-        position: fixed;
+    .lista_nav_movil a {
+        margin: 5px;
     }
-
-    
+    .navegacion_movil {
+        background-color: darkseagreen;

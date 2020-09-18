@@ -11,6 +11,7 @@
  btn_menu_responsive.onclick= () =>{  
      
     menu_desplegable.classList.toggle('hidden')
+   
     
 
  }
