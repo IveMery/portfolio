@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+  
     
 }
 
@@ -387,9 +388,10 @@ a {
         transform: translate(0);
         transition: all 2s;
         position: absolute;
+      
     }
     .hidden {
-        transform: translate(350px);
+        transform: translate(-400px);
     }
     .lista_nav_movil {
         margin: 20px 0;
@@ -400,3 +402,4 @@ a {
     }
     .navegacion_movil {
         background-color: darkseagreen;
+    }
