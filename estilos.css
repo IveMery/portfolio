@@ -264,6 +264,12 @@ a {
     font-weight: 600;
 }
 
+.skills-list-button:active{
+    background-color:#305a57 ;
+    color: white;
+    transition: all 0.2s;
+    border-radius: 50px;
+}
 /* Fin seccion proyectos */
 
 /* Inicio footer */
@@ -310,6 +316,10 @@ a {
     color: #305a57;
 }
 
+/*javascript clase*/
+.ocultar{
+    display: none;
+}
 /* fin seccion footer */
 
 /* ---------------------Fin version escritorio---------------------
@@ -391,10 +401,10 @@ a {
       
     }
     .hidden {
-        transform: translate(-400px);
+        transform: translate(-600px);
     }
     .lista_nav_movil {
-        margin: 20px 0;
+        margin: 10px 0;
         height: 60px;
     }
     .lista_nav_movil a {
@@ -403,3 +413,4 @@ a {
     .navegacion_movil {
         background-color: darkseagreen;
     }
+
