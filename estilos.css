@@ -6,8 +6,6 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-  
-    
 }
 
 /* inicio Header */
@@ -264,12 +262,13 @@ a {
     font-weight: 600;
 }
 
-.skills-list-button:active{
-    background-color:#305a57 ;
+.skills-list-button:active {
+    background-color: #305a57;
     color: white;
     transition: all 0.2s;
     border-radius: 50px;
 }
+
 /* Fin seccion proyectos */
 
 /* Inicio footer */
@@ -317,9 +316,11 @@ a {
 }
 
 /*javascript clase*/
-.ocultar{
+
+.ocultar {
     display: none;
 }
+
 /* fin seccion footer */
 
 /* ---------------------Fin version escritorio---------------------
@@ -394,18 +395,18 @@ a {
     .menu-desplegable {
         flex-direction: column;
         list-style-type: none;
-        background-color: #43F3E5;
-        transform: translate(0);
+        background-color: #4bc5bd;
+        transform: translateY(0);
         transition: all 2s;
         position: absolute;
-      
+        width: 100%;
     }
     .hidden {
-        transform: translate(-600px);
+        transform: translateY(-600px);
     }
     .lista_nav_movil {
-        margin: 10px 0;
         height: 60px;
+        padding: 20px;
     }
     .lista_nav_movil a {
         margin: 5px;
@@ -413,4 +414,4 @@ a {
     .navegacion_movil {
         background-color: darkseagreen;
     }
-
+}
