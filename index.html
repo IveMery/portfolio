@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
 </head>
-
 <body>
     <!-- Barra de navegacion -->
     <header>
@@ -19,7 +19,7 @@
                 <li class="menu-nav__item "><a class="text-hover" href="#hola"> HOLA</a></li>
                 <li class="menu-nav__item "><a class="text-hover" href="#conocimientos">CONOCIMIENTOS</a></li>
                 <li class="menu-nav__item "><a class="text-hover" href="#proyectos">PROYECTOS</a></li>
-                <li class="menu-nav__item "><a class="boton-item" href="#">CONTACTO</a></li>
+                <li class="menu-nav__item "><a class="boton-item" href="mailto:ivette.mery@gmail.com">CONTACTO</a></li>
                 </div>
             </ul>
         </nav>
@@ -51,7 +51,7 @@
     <!-- mis conocimientos -->
     <section class="seccion-principal-conocimientos" id="conocimientos">
         <h2 class="titulos"> Mis conocimientos</h2>
-        <p class="skills-parrafo">Conocimientos basicos de html y css, progresando en el mundo del frontend</p>
+        <p class="skills-parrafo">Conocimientos en Html,Css,Sass, Javascript,React,Styled-Components</p>
         <!-- inicio de tarjetas de conocimientos -->
         <div class="seccion-conocimientos">
             <div class="contenedor-conocimientos">
@@ -102,52 +102,89 @@
         <!-- Contenedor de tarjetas seccion proyecto -->
         <div class="project-section">
             <div class="project-container">
-                <div class="card-container " data-tecnologia="htmlcss">
-                    <a href="https://mi-portfolio.netlify.app/" target="_blank">
-                        <div class="imagenes-proyecto"> <img class="imagen_proyecto"
-                                src="image/undraw_personal_website_weap (1).png" alt="Portfolio">
-                        </div>
-                        <p class="parrafo-proyecto">Portfolio</p>
-                    </a>
+                <div class="card-container" data-tecnologia="htmlcss" data-name="Portfolio">
+                    <div class="imagenes-proyecto">
+                        <img class="imagen_proyecto" src="image/undraw_personal_website_weap (1).png" alt="Portfolio">
+                    </div>
+                    <p class="parrafo-proyecto">Portfolio</p>
+                    <div class="btn-container">
+                        <a href="https://mi-portfolio.netlify.app/" target="_blank"
+                            class="show-demo btn-demo-github">Ver Demo</a>
+                        <a href="https://github.com/IveMery/portfolio" target="_blank"
+                            class="show-github btn-demo-github">Ver github</a>
+                    </div>
                 </div>
-                <div class="card-container" data-tecnologia="javascript">
-                    <a href="https://evapershop.netlify.app/" target="_blank">
-                        <div class="imagenes-proyecto"> <img class="imagen_proyecto"
-                                src="image/undraw_shopping_app_flsj.png" alt="Tienda"></div>
-                        <p class="parrafo-proyecto">Tienda</p>
-                    </a>
+                <div class="card-container" data-tecnologia="javascript" data-name="Tienda">
+                    <div class="imagenes-proyecto">
+                        <img class="imagen_proyecto" src="image/undraw_shopping_app_flsj.png" alt="Tienda">
+                    </div>
+                    <p class="parrafo-proyecto">Tienda</p>
+                    <div class="btn-container">
+                        <a href="https://evapershop.netlify.app/" target="_blank" class="show-demo btn-demo-github">Ver
+                            Demo</a>
+                        <a href="https://github.com/IveMery/Proyecto-tienda" target="_blank"
+                            class="show-github btn-demo-github">Ver github</a>
+                    </div>
                 </div>
-                <div class="card-container" data-tecnologia="javascript">
-                    <a href="https://match-adas.netlify.app/" target="_blank">
-                        <div class="imagenes-proyecto"> <img class="imagen_proyecto" src="image/undraw_old_day_6x25.png"
-                                alt="Juego Match 3"> </div>
-                        <p class="parrafo-proyecto">Juego Match 3</p>
-                    </a>
+                <div class="card-container" data-tecnologia="javascript" data-name="Juego Match 3">
+                    <div class="imagenes-proyecto">
+                        <img class="imagen_proyecto" src="image/undraw_old_day_6x25.png" alt="Juego Match 3">
+                    </div>
+                    <p class="parrafo-proyecto">Juego Match 3</p>
+                    <div class="btn-container">
+                        <a href="https://match-adas.netlify.app/" target="_blank" class="show-demo btn-demo-github">Ver
+                            Demo</a>
+                        <a href="https://github.com/IveMery/Juego-Match-3" class="show-github btn-demo-github"
+                            target="_blank">Ver github</a>
+                    </div>
                 </div>
-                <div class="card-container" data-tecnologia="javascript">
-                    <a href="https://proyecto-comics.netlify.app/" target="_blank">
-                        <div class="imagenes-proyecto"><img class="imagen_proyecto"
-                                src="image/undraw_super_woman_dv0y.png" alt="Buscador de Comics Marvel"> </div>
-                        <p class="parrafo-proyecto">Buscador de Comics Marvel</p>
-                    </a>
+                <div class="card-container" data-tecnologia="javascript" data-name="Buscador de comics">
+                    <div class="imagenes-proyecto">
+                        <img class="imagen_proyecto" src="image/undraw_super_woman_dv0y.png"
+                            alt="Buscador de Comics Marvel">
+                    </div>
+                    <p class="parrafo-proyecto">Buscador de Comics Marvel</p>
+                    <div class="btn-container">
+                        <a class="show-demo btn-demo-github" href="https://proyecto-comics.netlify.app/"
+                            target="_blank">
+                            Ver Demo
+                        </a>
+                        <a href="https://github.com/IveMery/Buscador-de-Comics-Api-Marvel" target="_blank"
+                            class="show-demo btn-demo-github">Ver github</a>
+                    </div>
                 </div>
-                <div class="card-container" data-tecnologia="javascript">
-                    <div class="imagenes-proyecto"><img class="imagen_proyecto" src="image/undraw_booking_33fn.png"
-                            alt="Administrador de reuniones"> </div>
+                <div class="card-container" data-tecnologia="javascript" data-name="Administrador de reuniones">
+                    <div class="imagenes-proyecto">
+                        <img class="imagen_proyecto" src="image/undraw_booking_33fn.png"
+                            alt="Administrador de reuniones">
+                    </div>
                     <p class="parrafo-proyecto">Administrador de reuniones</p>
                     <p class="parrafo-proyecto alert">Proximamente!</p>
                 </div>
-                <div class="card-container" data-tecnologia="react">
-                    <div class="imagenes-proyecto"><img class="imagen_proyecto" src="image/undraw_my_app_grf2.png"
-                            alt=""> </div>
+                <div class="card-container" data-tecnologia="react" data-name="Todo react">
+                    <div class="imagenes-proyecto">
+                        <img class="imagen_proyecto" src="image/undraw_my_app_grf2.png" alt="todoapp">
+                    </div>
                     <p class="parrafo-proyecto">Todo app</p>
+                    <div class="btn-container">
+                        <a href="https://todo-react-bootstrap.netlify.app/" class="show-demo btn-demo-github"
+                            target="_blank">Ver Demo</a>
+                        <a href="https://github.com/IveMery/Todo-App-React" class="show-github btn-demo-github"
+                            target="_blank">Ver github</a>
+                    </div>
                 </div>
-                <div class="card-container" data-tecnologia="react">
-                    <a href="https://buscador-de-peliculas-two.vercel.app/" target="_blank">
-                        <div class="imagenes-proyecto"><img class="imagen_proyecto"
-                                src="image/undraw_movie_night_fldd.png" alt="buscador de peliculas"> </div>
-                        <p class="parrafo-proyecto">Buscador de Peliculas</p>
-                    </a>
+                <div class="card-container" data-tecnologia="react" data-name="Buscador de Peliculas">
+                    <div class="imagenes-proyecto">
+                        <img class="imagen_proyecto" src="image/undraw_movie_night_fldd.png"
+                            alt="buscador de peliculas">
+                    </div>
+                    <p class="parrafo-proyecto">Buscador de Peliculas</p>
+                    <div class="btn-container">
+                        <a href="https://buscador-de-peliculas-two.vercel.app/" target="_blank"
+                            class="show-demo btn-demo-github">Ver Demo</a>
+                        <a href="https://github.com/IveMery/Buscador-de-Peliculas-React" target="_blank"
+                            class="show-github btn-demo-github">Ver github</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,7 +197,7 @@
                 <li class="footer_navenlace"><a class="text-hover" href="#hola">HOLA</a></li>
                 <li class="footer_navenlace"><a class="text-hover" href="#conocimientos">CONOCIMIENTOS</a></li>
                 <li class="footer_navenlace"><a class="text-hover" href="#proyectos">PROYECTOS</a></li>
-                <li class="footer_navenlace"><a class="text-hover" href="#">CONTACTO</a></li>
+                <li class="footer_navenlace"><a class="text-hover" href="mailto:ivette.mery@gmail.com">CONTACTO</a></li>
             </ul>
         </div>
         <div class="social-media-container">
@@ -169,7 +206,7 @@
                             class="devicon-github-plain colored"></i></a></li>
                 <li class="media_list-enlace"> <a href="https://www.linkedin.com/in/ivettemery/"><i
                             class="devicon-linkedin-plain colored"></i></a></li>
-                <li class="media_list-enlace"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                <li class="media_list-enlace"><a href="mailto:ivette.mery@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
             </ul>
         </div>
         <div class="footer-item">
@@ -180,8 +217,6 @@
             </ul>
         </div>
     </footer>
-    <!-- Fin pie de pagina -->
     <script src="main.js"></script>
 </body>
-
 </html>
